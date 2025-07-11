@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: hsla(230, 95%, 51%, 1);
+
+    background: linear-gradient(90deg, hsla(230, 95%, 51%, 1) 0%, hsla(58, 90%, 64%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(230, 95%, 51%, 1) 0%, hsla(58, 90%, 64%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(230, 95%, 51%, 1) 0%, hsla(58, 90%, 64%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0A33F9", endColorstr="#F6F151", GradientType=1);
+}
+
+.form-div {
+    background-color: whitesmoke;
+    border-radius: 9px;
+    min-height: 45vh;
+    width: 47vh;
+    padding: 1.5rem;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.label-txt {
+    font-size: 20px;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 40px
+}
+
+#amount {
+    height: 1.7rem;
+    font-size: 16px;
+    width: 230px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    padding-left: 8px;
+}
+
+.drop-down {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 45px;
+}
+
+i {
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+.select-div {
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 115px;
+    margin-top: 10px;
+    background: none;
+}
+
+select {
+    border: none;
+    outline: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+button {
+    font-size: 1.2rem;
+    width: 130px;
+    height: 40px;
+    background-color: #ffd60a;
+    border: 1px solid gray;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.result-box {
+    margin-top: 35px;
+    border-radius: 5px;
+    height: 60px;
+    border: 1px solid grey;
+}
+
+
+
