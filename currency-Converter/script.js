@@ -3,7 +3,7 @@ const inputEl = document.getElementById('amount');
 const dropDownEl = document.querySelectorAll('.drop-down select');
 const fromCurr = document.querySelector('.from select');
 const toCurr = document.querySelector('.to select');
-const resultEl = document.querySelector('.result-box');
+const resultEl = document.getElementById('resultBox');
 
 const BASE_URL = 'https://v6.exchangerate-api.com/v6/e4e19cbe2ef3ed85f0fb3457/latest/'
 
@@ -51,8 +51,6 @@ btnEl.addEventListener('click', async (evt) => {
     let exchangeData = data['conversion_rates'];
     let changeTo = toCurr.value;
     let exchangeRate =  exchangeData[changeTo];
-    
-    console.log(resultEl);
-    resultEl.innerHTML = parseInt(amount) * exchangeRate;
+    resultEl.innerHTML = (parseInt(amount) * exchangeRate).toFixed(2);
 })
 

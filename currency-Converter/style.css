@@ -97,12 +97,25 @@ button {
     cursor: pointer;
 }
 
-.result-box {
-    margin-top: 35px;
-    border-radius: 5px;
-    height: 60px;
-    border: 1px solid grey;
+#resultBox {
+  font-size: 2em;        /* Larger text */
+  font-weight: bold;     /* Bold text */
+  color: #222;           /* Optional: dark text */
+  text-align: center;    /* Centered text */
+  padding: 16px;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 12px;
+  height: 30px;
 }
+
+.form-div h2 {
+    text-align: center;
+    font-family:monospace;
+    font-size: 27px;
+}
+
 
 
 
